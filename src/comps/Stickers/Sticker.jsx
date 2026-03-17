@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 import { Component } from "react";
-import { GetInfo } from "../Choice/Choice";
 
 const StickerItem = styled.button`
   display: flex;

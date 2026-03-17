@@ -22,12 +22,6 @@ const ChoiceButton = styled.button`
     }
 `
 
-
-export function GetInfo({ img, label }) {
-  console.log("Image url: " + img + "\nLabel: " + label);
-  return {img, label}
-}
-
 export class ChoiceInfo extends Component {
   render() {
     const { img, label } = this.props.data;
